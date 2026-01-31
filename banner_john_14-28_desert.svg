@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140">
+  <defs>
+    <linearGradient id="desertGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1810;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4a2f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d2f1f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f4c26f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e8a547;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4c26f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="140" fill="url(#desertGradient)"/>
+
+  <!-- Top border -->
+  <rect width="1200" height="3" fill="#c17817"/>
+
+  <!-- Bottom border -->
+  <rect y="137" width="1200" height="3" fill="#c17817"/>
+
+  <!-- Decorative side accents -->
+  <rect x="0" y="0" width="4" height="140" fill="#e8a547" opacity="0.6"/>
+  <rect x="1196" y="0" width="4" height="140" fill="#e8a547" opacity="0.6"/>
+
+  <!-- Verse Reference -->
+  <text x="600" y="35" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#textGradient)" text-anchor="middle">
+    JOHN 14:28
+  </text>
+
+  <!-- Verse Text - Line 1 (centered) -->
+  <text x="600" y="75" font-family="Georgia, serif" font-size="24" fill="#f5e6d3" text-anchor="middle" opacity="0.95">
+    You heard me say to you, 'I am going away, and I will come to you.' If you loved me, you would have rejoiced,
+  </text>
+
+  <!-- Verse Text - Line 2 (centered) -->
+  <text x="600" y="110" font-family="Georgia, serif" font-size="24" fill="#f5e6d3" text-anchor="middle" opacity="0.95">
+    because I am going to the Father, for the Father is greater than I.
+  </text>
+
+  <!-- Decorative elements -->
+  <circle cx="15" cy="90" r="3" fill="#e8a547" opacity="0.5"/>
+  <circle cx="1185" cy="90" r="3" fill="#e8a547" opacity="0.5"/>
+</svg>
