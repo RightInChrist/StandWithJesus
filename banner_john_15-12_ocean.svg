@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140">
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a2238;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e4866;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#143a52;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8ed4f0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5fb8e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8ed4f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="140" fill="url(#oceanGradient)"/>
+
+  <!-- Top border -->
+  <rect width="1200" height="3" fill="#3a8fb7"/>
+
+  <!-- Bottom border -->
+  <rect y="137" width="1200" height="3" fill="#3a8fb7"/>
+
+  <!-- Decorative side accents -->
+  <rect x="0" y="0" width="4" height="140" fill="#5fb8e0" opacity="0.6"/>
+  <rect x="1196" y="0" width="4" height="140" fill="#5fb8e0" opacity="0.6"/>
+
+  <!-- Verse Reference -->
+  <text x="600" y="35" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#textGradient)" text-anchor="middle">
+    JOHN 15:12
+  </text>
+
+  <!-- Verse Text - Line 1 (centered) -->
+  <text x="600" y="75" font-family="Georgia, serif" font-size="24" fill="#e8f4fa" text-anchor="middle" opacity="0.95">
+    This is my commandment, that you love one another
+  </text>
+
+  <!-- Verse Text - Line 2 (centered) -->
+  <text x="600" y="110" font-family="Georgia, serif" font-size="24" fill="#e8f4fa" text-anchor="middle" opacity="0.95">
+    as I have loved you.
+  </text>
+
+  <!-- Decorative elements -->
+  <circle cx="15" cy="90" r="3" fill="#5fb8e0" opacity="0.5"/>
+  <circle cx="1185" cy="90" r="3" fill="#5fb8e0" opacity="0.5"/>
+</svg>
